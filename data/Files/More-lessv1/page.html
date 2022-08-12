@@ -2,33 +2,27 @@
 <meta charset ='UTF-8'>
 <html>
     <head>
-        <title>YTMP3Downloader</title>
+        <title>More-Less</title>
         <link rel="stylesheet" href="../../../css/style.css" type="text/css">
         <link rel="stylesheet" href="../../../css/stylepage.css" type="text/css">
         <link rel="icon" href="../../Pictures/WebIcon.png">
     </head>
     <body>
-
         <div id="menu" class="os-select hidden">
-            <pannel-text>Sélectionnez votre OS</pannel-text>
-            <img id="close-button" class="buttonised rclose" src="../../Pictures/Close.png">
-            <table class="tableos">
+            <pannel-text class="cdefault l1">Accéder au site:</pannel-text>
+            <img id="close-button" class="rclose002 buttonised" src="../../Pictures/Close.png">
+            <table class="panel table3">
                 <tr>
-                    <td class="centered ddltext">Windows</td>
-                    <td class="centered ddltext">Linux</td>
+                    <td align="CENTER"><button  class="custom-btn btn-5" onclick="offline()"><span>Accéder au site</span></button></td>
                 </tr>
                 <tr>
-                    <td><a href="YTMP3Downloader-setup.exe" title="Pour Windows" download><img src="../../Pictures/Systems/Windows.png"></td>
-                    <td>
-                        <table>                            
-                            <td><a href="../debian.txt" title="Pour Debian" download><img src="../../Pictures/Systems/Debian.png"></td>
-                            <td><a href="../ubuntu.txt" title="Pour Ubuntu" download><img src="../../Pictures/Systems/Ubuntu.png"></td>
-                        </table>
-                    </td>
+                    <td align="CENTER"><pannel-text class="rmz1 cdefault">ou télécharger le code source :</pannel-text></td>
                 </tr>
+                <tr>
+                    <td align="CENTER"><a href="CS-MoreLessV.1.7z"><button class="custom-btn btn-5"><span>Télécharger le code source</span></button></a></td>
+                </tr>         
             </table>
-        </div>
-    
+        </div>    
         <header id="header">
             <nav class="container navbar">
                 <a href="index.html" class="logo-container" ><img class="logo" src="../../Pictures/WebIcon.png"></a>
@@ -36,15 +30,15 @@
             </nav>
         </header>
         <text class="cache-misère">e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br></text>
-        <title-text>YTMP3Downloader</title-text>
+        <title-text>More-less v.1</title-text>
         <div class="presentation-board" >
-            <img class="main-img" src="../../Pictures/Screenshots/YTPyDDLR/MainWindow.png">
+            <img class="main-img" src="../../Pictures/Screenshots/MoreLessv.1/More-lessv1.png">
             <div class="downloadcard">
                 <ddl-text>Téléchargement<br></ddl-text>
                 <ddl-text>Type de fichier :<br></ddl-text>
-                <ddl-text style:"">Archive ZIP<br></ddl-text>
+                <ddl-text style:"">Archive 7zip<br></ddl-text>
                 <ddl-text>Taille de fichier :<br></ddl-text>
-                <ddl-text>9,2ko<br></ddl-text>
+                <ddl-text>8,45ko<br></ddl-text>
                 <button class="button-82-pushable centered-button" role="button" onclick="select_os()">
                     <span class="button-82-shadow"></span>
                     <span class="button-82-edge"></span>
@@ -54,31 +48,21 @@
                 </button>
             </div>
         </div>
-        <div class="pb2">
-            <img class='log-reducto' src="../../Pictures/Screenshots/YTPyDDLR/LogPrint.png">
-            <img class='reducto'src="../../Pictures/Screenshots/YTPyDDLR/CompleteWindow.png">
-            <img class="imgrt" src="../../Pictures/Screenshots/YTPyDDLR/ResizedAvertissementWindow.png">
-        </div>
         <p class="paratext">
-            YTMP3Downloader est une application qui permets de télécharger n'importe quel vidéo Youtube au format MP3.
-            Elle est basée sur Python et utilise les modules Tkinter et YoutubeDL. Application disponible sous Linux et Windows. Téléchargement
-            ci-dessous :
+            Un petit jeu dont l'objectif est de deviner un nombre généré aléatoirement. Première version.
         </p>
         <div class="downloadinstallers">
-            <table class="ddlpanel">
+            <pannel-text class="cdefault l1">Accéder au site:</pannel-text>
+            <table class="panel table3">
                 <tr>
-                    <td class="centered ddltext">Windows</td>
-                    <td class="centered ddltext">Linux</td>
+                    <td align="CENTER"><button  class="custom-btn btn-4" onclick="offline()"><span>Accéder au site</span></button></td>
                 </tr>
                 <tr>
-                    <td><a href="YTMP3Downloader-setup.exe" title="Pour Windows" download><img src="../../Pictures/Systems/Windows.png"></td>
-                    <td>
-                        <table>                            
-                            <td><a href="../debian.txt" title="Pour Debian" download><img src="../../Pictures/Systems/Debian.png"></td>
-                            <td><a href="../ubuntu.txt" title="Pour Ubuntu" download><img src="../../Pictures/Systems/Ubuntu.png"></td>
-                        </table>
-                    </td>
+                    <td align="CENTER"><pannel-text class="rmz1 cdefault">ou télécharger le code source :</pannel-text></td>
                 </tr>
+                <tr>
+                    <td align="CENTER"><a href="CS-MoreLessV.1.7z"><button class="custom-btn btn-4"><span>Télécharger le code source</span></button></a></td>
+                </tr>         
             </table>
         </div>
         <footer>
@@ -91,12 +75,12 @@
                 <tr>
                     <td align="CENTER"><a href="https://www.github.com/GuGules" class="lastone">GitHub</a></td>
                     <td align="CENTER"><a href="#" class="lastone">Accueil</a></td>
-                    <td align="CENTER"><a href="#" class="lastone">YTMP3Downloader</a></td>
+                    <td align="CENTER"><a href="../YTPyDownloader/page.html" class="lastone">YTMP3Downloader</a></td>
                 </tr>
                 <tr>
                     <td class="cache-misère"><a href="#" class="lastone">1</a></td>
                     <td><a href="#" class="lastone">Programmes</a></td>
-                    <td align="CENTER"><a href="../More-lessv1/page.html" class="lastone">More-Less v1</a></td>
+                    <td align="CENTER"><a href="#" class="lastone">More-less v.1</a></td>
                 </tr>
                 <tr>
                     <td class="cache-misère"><a href="#" class="lastone">1</a></td>

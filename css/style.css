@@ -86,6 +86,20 @@ footer {
     max-width: 5%;
 }
 
+.rclose002{
+    margin-left:25%;
+    margin-top:2%;
+    max-width: 5%;
+}
+
+.cdefault{
+    cursor:default
+}
+
+.cpointer{
+    cursor:pointer;
+}
+
 .cache-misère{
     opacity: 0%;
     z-index:-25;
@@ -169,3 +183,11 @@ a{
     margin-top:50px;
 }
 
+.table3{
+    margin-left:60px;
+    border-spacing: 20px;
+}
+
+.reducto2{
+    height:150px;
+}
