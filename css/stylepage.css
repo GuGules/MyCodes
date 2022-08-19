@@ -34,6 +34,9 @@ ddl-text{
 
 /* Panneaux de présentation */
 
+.reducto1{
+  margin-left: 15.7%;
+}
 
 /* Panneau Principal */
 
@@ -133,6 +136,11 @@ ddl-text{
 .l1{
   margin-top:20px;
   margin-left:300px;
+}
+
+.l2{
+  margin-top:20px;
+  margin-left:400px;
 }
 
 
@@ -303,7 +311,7 @@ ddl-text{
 }
 /**/
 .btn-4 {
-  background: #fff;
+  background: #ffb300;
   color: #000;
   line-height: 42px;
   padding: 0;
@@ -366,4 +374,9 @@ body *.hidden{
 .table2{
   border: 2px solid #fff;
   color: #ff8f00;
+}
+
+.table3{
+  margin-left:140px;
+  border-spacing: 20px;
 }
