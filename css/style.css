@@ -39,6 +39,7 @@ footer {
     margin-bottom:0px;
 }
 
+
 .tablefooter, td {
     border-spacing: 300px 7px;
 }
@@ -195,12 +196,7 @@ a{
     margin-top:50px;
 }
 
-.ppagetitle2{
-    font-family: 'Changa One', cursive;
-    font-size:100px;
-    text-align: center;
-    margin-top:15%;
-}
+
 
 .reducto2{
     height:150px;
