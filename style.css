@@ -1,0 +1,117 @@
+/* Police N°1 : Edu NSW ACT Foundation */
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
+/* font-family: 'Edu NSW ACT Foundation', cursive; */
+
+/* Police N°2 : Changa One */
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+/* font-family: 'Changa One', cursive; */
+
+
+/* Header */
+
+body , html {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    box-shadow: rgba(255, 190, 73, 6) 0px 8px 24px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    cursor: default;
+    z-index:1;
+}
+.button-text{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size:44px;
+}
+
+#home-link {
+    text-decoration: none;
+    color: #ffbe49;
+    padding-right: 50%;
+    padding-top: 50px;
+    width: 100px;
+    height: 60px;
+}
+
+.logo-container {
+    width: 131px;
+    height: 181px;
+}
+
+.logo {
+    padding-top:25px;
+    padding-bottom: 25px;
+    width:100%;
+}
+
+.cache-misère{
+    opacity: 0%;
+}
+
+/* Page Principal */
+
+text{
+    font-size:16px;
+    color:#ffbe49;
+}
+
+.board{
+    margin:0 auto;
+}
+
+.box{
+    width:15px;
+    height: 60px;
+}
+
+  
+.navbar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.container {
+    width:80%;
+    padding:0 1em;
+    margin:auto;
+}
+
+.content {
+    padding-top:60px;
+}
+
+.grille {
+    margin: 0 auto;
+}
+
+.grille .item {
+    width:calc(33.3333% - 20px);
+    margin-bottom:3em;
+}
+
+article {
+    order:2;
+}
+
+.img-fluid {
+    width:100%;
+}
+
+.article-text {
+    text-align:center;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+
