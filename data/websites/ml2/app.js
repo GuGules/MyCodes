@@ -41,10 +41,10 @@ function ShowArrow(direction){
     let arrow;
 
     if (direction === "up"){
-        arrow = arrowUp;
+        arrow = arrowup;
     }
     else if (direction === "down"){
-        arrow = arrowDown;
+        arrow = arrowdown;
     }
     if (arrow !== null){
             arrow.classList.remove("hidden");
