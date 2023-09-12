@@ -92,10 +92,10 @@ function checkUserInput(){
         }
         
         else if (UserVal > Target){
-            ShowArrow("Down");
+            ShowArrow("down");
         }
         else if (UserVal < Target){
-            ShowArrow("Up");
+            ShowArrow("up");
         }
 
         userInput.value
