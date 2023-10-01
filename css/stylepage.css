@@ -1,0 +1,382 @@
+/* Police N°2 : Changa One */
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+/* font-family: 'Changa One', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+/* font-family: 'Square Peg', cursive; */
+
+
+/* Pages de présentation pour les applis */
+
+
+/* Polices */
+title-text {
+    color:#ff8f00;
+    font-family:'Changa One', cursive;
+    font-size:66px;
+    margin-left:110px;
+    margin-top:30px;
+}
+
+pannel-text {
+  color:black;
+  font-family:'Changa One', cursive;
+  font-size:66px;
+  margin-left:250px;
+  margin-top:30px;
+}
+
+ddl-text{
+    font-family: 'Changa One', cursive;
+    font-size: 40px;
+    margin-top:30px;
+    margin-left:30px;
+}
+
+/* Panneaux de présentation */
+
+.reducto1{
+  margin-left: 15.7%;
+}
+
+/* Panneau Principal */
+
+.presentation-board{
+    display: flex;
+    z-index:0;
+}
+
+.pb2{
+    display: flex;
+}
+
+.main-img{
+    max-width: 50%;
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-right: 50px;
+    z-index:1;
+}
+.log-reducto{
+    max-width: 10%;
+    margin-left: 300px;
+    margin-right: 5px;
+    margin-top:5px;
+}
+
+.reducto{
+    max-width: 15%;
+    margin-right: 5px;
+    margin-top:5px;
+}
+
+.imgrt{
+    max-width: 15%;
+    max-height: 10%;
+    margin-top:5px;
+    z-index: 2;
+}
+
+/* Downloads Panels */
+
+.downloadcard {
+    background-image: url(../data/Pictures/DDLCARD.png);
+    z-index:2;
+    height: 550px;
+    width:350px;
+    cursor:default;
+}
+
+.downloadinstallers {
+  background-color:#ff8f00;
+  width: 1295px;
+  height: 400px;
+  margin-left:300px;
+  margin-bottom:100px;
+}
+
+.buttonised:hover{
+  cursor:pointer;
+}
+
+.ddlpanel {
+  margin-left: 17%;
+  border-spacing: 20px;
+}
+
+.centered{
+  text-align: center;
+}
+
+.ddltext {
+  font-family: 'Changa One', cursive;
+  font-size: 45px;
+  color:black;
+}
+
+/* Texte de présentation */
+
+.paratext {
+    font-family: 'Square Peg', cursive;
+    font-size:60px;
+    color:#ff8f00;
+    margin-left:300px;
+    margin-right:300px;
+    cursor:default;
+}
+
+.panel{
+  justify-content: center;
+  align-items: center;
+}
+
+.rmz1{
+  margin-left: 50px;
+}
+
+.l1{
+  margin-top:20px;
+  margin-left:300px;
+}
+
+.l2{
+  margin-top:20px;
+  margin-left:400px;
+}
+
+
+
+/* CSS Bouton */
+
+.centered-button{
+    margin-left: 75px;
+    margin-right:75px;
+    margin-top: 150px;
+}
+
+.button-82-pushable {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-82-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-82-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(
+    to left,
+    hsl(340deg 100% 16%) 0%,
+    hsl(340deg 100% 32%) 8%,
+    hsl(340deg 100% 32%) 92%,
+    hsl(340deg 100% 16%) 100%
+  );
+}
+
+.button-82-front {
+  display: block;
+  position: relative;
+  padding: 12px 27px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: white;
+  background: hsl(345deg 100% 47%);
+  will-change: transform;
+  transform: translateY(-4px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+@media (min-width: 768px) {
+  .button-82-front {
+    font-size: 1.25rem;
+    padding: 12px 42px;
+  }
+}
+
+.button-82-pushable:hover {
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+}
+
+.button-82-pushable:hover .button-82-front {
+  transform: translateY(-6px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:hover .button-82-shadow {
+  transform: translateY(4px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Bouton Acces Site WEB */
+
+.custom-btn {
+  width: 350px;
+  height: 40px;
+  padding: 10px 25px;
+  border: 2px solid #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn-5 {
+  background: #ff8f00;
+  color: #fff;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-5:hover {
+  background: transparent;
+  color: #ff8f00;
+   box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #ff842f,
+}
+.btn-5:before,
+.btn-5:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #ff8f00;
+  transition:400ms ease all;
+}
+.btn-5:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btn-5:hover:before,
+.btn-5:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+/**/
+.btn-4 {
+  background: #ffb300;
+  color: #000;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-4:hover {
+  background: transparent;
+  color: #000;
+   box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #000,
+}
+.btn-4:before,
+.btn-4:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #000;
+  transition:400ms ease all;
+}
+.btn-4:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btn-4:hover:before,
+.btn-4:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+/* Panneau OS */
+
+.os-select {
+  background-color:#fff;
+  opacity:100%;
+  z-index:5;
+  width:60%;
+  height: 50%;
+  position:absolute;
+  margin-left: 20%;
+  margin-top: 25%;
+}
+
+body *.hidden{
+  position:absolute;
+  transition:0.25s;
+  opacity:0%;
+  z-index:-1;
+}
+
+
+/* Footer */
+
+.table2{
+  border: 2px solid #fff;
+  color: #ff8f00;
+}
+
+.table3{
+  margin-left:140px;
+  border-spacing: 20px;
+}

@@ -1,0 +1,274 @@
+body {
+    background-color : #5895ff;
+    text-align: center;
+}
+
+.C_Note {
+    color : black;
+    position : absolute;
+    padding-top: 258px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    z-index: 50;
+    background-color: white;
+    cursor: pointer;
+    left: 366px;
+    top: 144px;
+}
+
+.D_Note{
+    color : black;
+    position : absolute;
+    padding-top: 258px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 56px;
+    z-index: 51;
+    background-color: white;
+    cursor: pointer;
+    left: 369px;
+    top: 144px;
+}
+
+.E_Note{
+    color : black;
+    position : absolute;
+    padding-top: 258px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 111px;
+    z-index: 53;
+    background-color: white;
+    cursor: pointer;
+    left: 373px;
+    top: 144px;
+}
+
+.F_Note{
+    color : black;
+    position : absolute;
+    padding-top: 258px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 167px;
+    z-index: 55;
+    background-color: white;
+    cursor: pointer;
+    left: 374px;
+    top: 144px;
+}
+
+.G_Note{
+    color : black;
+    position : absolute;
+    padding-top: 258px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 223px;
+    z-index: 56;
+    background-color: white;
+    cursor: pointer;
+    left: 375px;
+    top: 144px;
+}
+
+.A_Note{
+    color : black;
+    position : absolute;
+    padding-top: 258px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 279px;
+    z-index: 58;
+    background-color: white;
+    cursor: pointer;
+    left: 376px;
+    top: 144px;
+}
+
+.B_Note{
+    color : black;
+    position : absolute;
+    padding-top: 258px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 335px;
+    z-index: 60;
+    background-color: white;
+    cursor: pointer;
+    left: 377px;
+    top: 144px;
+}
+
+.C1_Note{
+    color : black;
+    position : absolute;
+    padding-top: 258px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 385px;
+    z-index: 62;
+    background-color: white;
+    cursor: pointer;
+    left: 383px;
+    top: 144px;
+}
+
+.D1_Note{
+    color : black;
+    position : absolute;
+    padding-top: 258px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 447px;
+    z-index: 66;
+    background-color: white;
+    cursor: pointer;
+    left: 384px;
+    top: 144px;
+}
+
+.E1_Note{
+    color : black;
+    position : absolute;
+    padding-top: 258px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 509px;
+    z-index: 62;
+    background-color: white;
+    cursor: pointer;
+    left: 385px;
+    top: 144px;
+}
+
+.F1_Note{
+    color : black;
+    position : absolute;
+    padding-top: 258px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 570px;
+    z-index: 62;
+    background-color: white;
+    cursor: pointer;
+    left: 386px;
+    top: 144px;
+}
+
+
+.Cs_Note{
+    color : white;
+    position : absolute;
+    padding-top: 180px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 26px;
+    z-index: 52;
+    background-color: black;
+    cursor: pointer;
+    left: 364px;
+    top: 144px;
+}
+
+.Ds_Note{
+    color : white;
+    position : absolute;
+    padding-top: 180px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 18px;
+    margin-left: 90px;
+    z-index: 54;
+    background-color: black;
+    cursor: pointer;
+    left: 363px;
+    top: 144px;
+}
+
+.Fs_Note{
+    color : white;
+    position : absolute;
+    padding-top: 180px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 18px;
+    margin-left: 190px;
+    z-index: 57;
+    background-color: black;
+    cursor: pointer;
+    left: 375px;
+    top: 144px;
+}
+
+.Gs_Note{
+    color : white;
+    position : absolute;
+    padding-top: 180px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 18px;
+    margin-left: 190px;
+    z-index: 59;
+    background-color: black;
+    cursor: pointer;
+    left: 435px;
+    top: 144px;
+}
+
+.Bb_Note{
+    color : white;
+    position : absolute;
+    padding-top: 180px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 18px;
+    margin-left: 190px;
+    z-index: 61;
+    background-color: black;
+    cursor: pointer;
+    left: 497px;
+    top: 144px;
+}
+
+.Cs1_Note{
+    color : white;
+    position : absolute;
+    padding-top: 180px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 18px;
+    margin-left: 190px;
+    z-index: 100;
+    background-color: black;
+    cursor: pointer;
+    left: 610px;
+    top: 144px;
+}
+
+.Ds1_Note{
+    color : white;
+    position : absolute;
+    padding-top: 180px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 18px;
+    margin-left: 190px;
+    z-index: 110;
+    background-color: black;
+    cursor: pointer;
+    left: 678px;
+    top: 144px;
+}
