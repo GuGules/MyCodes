@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Sigmar+One&display=swap');
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid'); 
+/*HTML , BODY : Structrure Base*/
+html,body{
+    margin:0px;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    display: flex;
+}
+
+body {
+    background-color: #03a9f4;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body *.hidden{
+    opacity:0%;
+    z-index:-1;
+    position: absolute;
+    transition: 0.25s;
+}
+/*Régulateur de la taille d'image*/
+/*Polices*/
+.launcher-font{
+    font-family:"Sigmar One",cursive;
+    font-size:65px;
+    color:white;
+}
+
+.pokemonCard{
+    font-family:"Pokemon Solid",cursive;
+}
+/*Superposition*/
+
+.super-position{
+    z-index:3;
+}
+
+/*Divisions de la page*/
+.menu{
+    position: absolute;
+}
+
+.infos{
+    z-index:7 !important;;
+    position:absolute;
+    left:471px;
+}
+.fight{
+    position: absolute;
+    z-index:0;
+}
+
+.Lifepts{
+    font-family:"Sigmar One",cursive;
+    font-size:50px;
+    z-index:8!important;
+    position: absolute;
+    color:#001970;
+    left:-293px;
+    bottom:115px;
+}
+
+.Potions{
+    font-family:"Sigmar One",cursive;
+    font-size:50px;
+    color: #ab47bc;
+    position: absolute;
+    left:-260px;
+    bottom:-50px;
+    z-index: 8 !important;
+}
+
+.ennemy-pv{
+    font-family:"Sigmar One",cursive;
+    font-size:50px;
+    position: absolute;
+    color: #b0ff57;
+    left:-293px;
+    bottom: -240px;
+    z-index: 8 !important;
+}
+/*ID Title*/
+#title {
+    cursor: pointer;
+}
+
+#title:hover{
+    color:red;
+    transform:scale(1.25);
+    transition: 1s;
+}
+/*Attack Button ID*/
+
+.lowlife{
+    position: relative;
+    bottom: -240px;
+    left:-125px;
+    z-index: 10 !important;
+}
+
+#lowlife{
+    cursor: pointer;
+}
+
+#lowlife:hover{
+    transform: scale(0.5);
+    transition: 0.25s
+}
+/*Heal Button ID*/
+
+.healer{
+    position: relative;
+    bottom: -240px;
+    left:0px;
+    z-index: 10 !important;
+}
+
+#healer{
+    cursor: pointer;
+}
+
+#healer:hover{
+    transform: scale(0.5);
+    transition: 0.25s;
+}
+
+/*Exit Button ID*/
+
+.exit{
+    width:50px !important;
+    height: 50px !important;
+    position: relative;
+    bottom: -240px;
+    left:125px;
+    z-index: 10 !important;
+}
+
+#endgame{
+    cursor: pointer;
+}
+
+#endgame:hover{
+    transform: scale(0.5);
+    transition: 0.25s;
+}
+
+/*Régulateur image type pokemon*/
+
+.PokemonType{
+    width:15px !important;
+    height:15px !important;
+}
+
+/*Dracaufeu*/
+.Dracaufeu{
+    color:#e98846;
+}
+#Dracaufeu:hover{
+    transform:scale(0.75);
+    transition:1s;
+}
+
+/*Pikachu*/
+.Pikachu{
+    color:#f8d326;
+}
+#Pikachu:hover{
+    transform:scale(0.75);
+    transition:1s
+}
+
+/*Florizarre*/
+.Florizarre{
+    color:#82a946;
+}
+#Florizarre:hover{
+    transform:scale(0.75);
+    transition:1s
+}
+
+/*Fin de jeu*/
+.end-lose{
+    position: absolute;
+    bottom: 300px !important;
+}
+
+.end{
+    position:absolute;
+    color: black;
+    font-family:"Pokemon Solid",cursive;
+    font-size: 50px;
+    z-index:9;
+    bottom:90px;
+}
+
+#Restart{
+    cursor:pointer;
+}
+
+#Restart:hover{
+    transform:scale(0.75);
+    transition:1s
+}

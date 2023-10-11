@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <head>
+        <title>Pokemon - Battle Game</title>
+        <link rel="icon" href="IMG/ICO/pokemon_logo_PNG12.png">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <!--Démarrage-->
+        <img id="startPicture" src="IMG/LOGO/rect80047.png" title="Pokemon - Battle Game">
+        <h1 id="title" class="launcher-font">Lancer la Partie!</h1>
+        <div id="lifebardiv" class="menu Life-Bar hidden">
+            <!--Inventaire/Infos-->
+            <h1 id="lifebar" class="Lifepts"><span id="lifepoints"></span></h1>
+            <h1 id="potions" class="Potions"><span id="potions"></span></h1>
+            <h1 id="ennemy_pv" class="ennemy-pv"><span id="ennemy_pv"></span></h1>
+            <!--Commandes-->
+            <img src="IMG/POKEMON/Buttons/Attack_Button.png" title="Attaquer" id="lowlife" class="lowlife hidden">
+            <img src="IMG/POKEMON/Buttons/Healer-Button.png" title="Régénérer la santé" id="healer" class="healer hidden">
+            <img src="IMG/POKEMON/Buttons/Exit_Button.png" title="Mettre fin au combat" id="endgame" class="exit hidden">
+        </div>
+        <!--Menu Sélection de Personnage-->
+        <div id="startingMenu" class="menu character-choice hidden">
+            <h1 class="pokemonCard">Cliquez sur le pokémon que vous souhaitez incarner :</h1>
+            <table>
+                <tr>
+                    <td id="Dracaufeu">
+                        <img src="IMG/POKEMON/Dracaufeu - Resized.png" class="Dracaufeu">
+                        <h1 align="center" class="Dracaufeu">Dracaufeu</h1>
+                    </td>
+                    <td id="Pikachu">
+                        <img src="IMG/POKEMON/Pikachu - Resized.png">    
+                        <h1 align="center" class="Pikachu">Pikachu</h1>                  
+                    </td>
+                    <td id="Florizarre">
+                        <img src="IMG/POKEMON/Florizarre - Resized.png">
+                        <h1 align="center" class="Florizarre">Florizarre</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="pokemonCard">Type :<img src="IMG/POKEMON/Type_Pokemon/Type-Feu - Resized.png" class="PokemonType"></p>
+                        <p class="pokemonCard">Attaque : 86</p>
+                        <p class="pokemonCard">Défense : 76</p>                        
+                    </td>
+                    <td>
+                        <p class="pokemonCard">Type :<img src="IMG/POKEMON/Type_Pokemon/Type-Elektric.png" class="PokemonType"></p>
+                        <p class="pokemonCard">Attaque : 54</p>
+                        <p class="pokemonCard">Defense : 82</p>
+                    </td>
+                    <td>
+                        <p class="pokemonCard">Type :<img src="IMG/POKEMON/Type_Pokemon/Type-Plante.png" class="PokemonType"></p>
+                        <p class="pokemonCard">Attaque : 74</p>
+                        <p class="pokemonCard">Defense : 51</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!--Infos-->
+        <img id="infos" src="IMG/POKEMON/Backgrounds/Infos.png" class="infos hidden">
+        <!--Affichage de l'adversaire-->
+        <img id="ennemy1" src="IMG/POKEMON/Backgrounds/Background_Commands_Ennemy1.png" class="fight hidden">
+        <img id="ennemy2" src="IMG/POKEMON/Backgrounds/Background_Commands_Ennemy2.png" class="fight hidden">
+        <img id="ennemy3" src="IMG/POKEMON/Backgrounds/Background_Commands_Ennemy3.png" class="fight hidden">
+        <img id="ennemy1_hit" src="IMG/POKEMON/Backgrounds/Background_Commands_Hitted_Ennemy1.png" class="fight hidden">
+        <img id="ennemy2_hit" src="IMG/POKEMON/Backgrounds/Background_Commands_Hitted_Ennemy2.png" class="fight hidden">
+        <img id="ennemy3_hit" src="IMG/POKEMON/Backgrounds/Background_Commands_Hitted_Ennemy3.png" class="fight hidden">  
+        <!--Fin de partie-->
+        <!--Lose-->
+        <img id="Lose" src="IMG/POKEMON/END/LOSE.png" class="end-lose hidden">
+        <img id="Win" src="IMG/POKEMON/END/WIN.png" class="end-win hidden">
+        <a id="Restart" class="end hidden" href="https://gugules.github.io/Pokemon-Battle-Game"><h1>Relancer une partie</h1></a>
+        <script src="app.js" type="text/javascript"></script>
+    </body>
+</html>
